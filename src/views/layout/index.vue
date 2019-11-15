@@ -62,7 +62,6 @@
 <script>
 import layoutHeader from '../../components/layout-header'
 export default {
-  name: 'home',
   components: {
     'layout-header': layoutHeader
   }

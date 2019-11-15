@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/home'
+import Layout from '../views/layout'
 import Login from '../views/login'
 Vue.use(VueRouter)
 
@@ -16,9 +16,8 @@ const routes = [
   },
   // 一级路由主页
   {
-    path: '/home',
-    name: 'home',
-    component: Home
+    path: '/layout',
+    component: Layout
   }
   // {
   //   path: '/about',

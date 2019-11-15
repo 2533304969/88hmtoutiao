@@ -91,7 +91,7 @@ export default {
             // 存储到本地存储
             window.localStorage.setItem('user-token', result.data.data.token)
             // 跳转到主页
-            this.$router.push('/home')
+            this.$router.push('/layout')
           }).catch(() => {
             // 提示信息
             this.$message({
