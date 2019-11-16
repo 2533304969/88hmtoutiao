@@ -13,6 +13,7 @@
             active-text-color="#ffd04b"
             @open="handleOpen"
             @close="handleClose"
+            router
           >
             <el-menu-item index="/home">
               <span slot="title">首页</span>

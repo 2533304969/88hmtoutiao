@@ -23,7 +23,11 @@ const routes = [
     component: Layout,
     children: [
       {
-        path: '',
+        path: '/',
+        component: Home
+      },
+      {
+        path: '/home',
         component: Home
       },
       {
